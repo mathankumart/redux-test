@@ -26,7 +26,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_tests:
-    path: ../integration_tests
+    git:
+      url: https://github.com/brianegan/flutter_architecture_samples/
+      path: integration_tests/
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
